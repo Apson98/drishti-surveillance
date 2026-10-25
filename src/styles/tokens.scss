@@ -1,0 +1,42 @@
+// Layout concept: a clean, light catalogue page with the calm navy of the
+// Drishti logo, where the only dark surface is the "monitor" showing the
+// coverage plan. Red is kept for REC and blind spots.
+
+:root {
+  color-scheme: light;
+
+  --ink: #ffffff;          // page ground
+  --panel: #f3f6f9;        // alternate bands
+  --panel-2: #e9eef3;
+  --line: #e1e7ed;
+  --line-strong: #cdd6df;
+  --text: #13303b;         // logo navy-teal
+  --muted: #5d6f7c;
+  --soft: #8696a2;
+  --accent: #1f4e66;       // buttons, active states
+  --accent-2: #3b6f8f;     // lighter steel blue for details
+  --accent-ink: #ffffff;
+  --signal: #e2483d;
+
+  // the coverage "monitor" keeps its own dark palette
+  --mon-bg: #08111d;
+  --mon-text: #dbe5f0;
+  --mon-muted: #8ea0b5;
+  --mon-accent: #7fb2ff;
+
+  --f-display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --f-body: 'IBM Plex Sans', 'Segoe UI', Roboto, sans-serif;
+  --f-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  --step--1: clamp(0.78rem, 0.76rem + 0.1vw, 0.84rem);
+  --step-0: clamp(0.95rem, 0.92rem + 0.15vw, 1.05rem);
+  --step-1: clamp(1.12rem, 1.04rem + 0.35vw, 1.3rem);
+  --step-2: clamp(1.45rem, 1.2rem + 1vw, 2rem);
+  --step-3: clamp(1.9rem, 1.4rem + 2vw, 2.9rem);
+  --step-4: clamp(2.4rem, 1.5rem + 3.4vw, 4.4rem);
+
+  --wrap: 1200px;
+  --radius: 16px;
+  --shadow: 0 1px 2px rgba(19, 48, 59, 0.05), 0 8px 28px -12px rgba(19, 48, 59, 0.18);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
